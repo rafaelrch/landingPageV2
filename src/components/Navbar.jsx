@@ -10,12 +10,12 @@ const Navbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen)
     }
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-4. z-50 py-3 backdrop-blur-lg border border-neutral-700/80 w-3/5 mx-auto bg-black bg-opacity-50 py-3 px-3" style={{ borderRadius: '25px' }}>
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
-                    <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
-                    <span className="text-xl tracking-tight">/span>
+                    <img className="h-10 w-30" src={logo} alt="logo" />
+                    <span className="text-xl tracking-tight"></span>
                 </div>
 
                 <ul className="hidden lg:flex ml-14 space-x-12">
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
-                    <a href="#" className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-2 rounded-md">
+                    <a href="#" className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5 " style={{ borderRadius: '15px' }}>
                     Vamos conversar
                     </a>
                 </div>
@@ -55,6 +55,7 @@ const Navbar = () => {
             )}
         </div>
     </nav>
+
   )
 }
 
