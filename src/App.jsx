@@ -3,11 +3,12 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 
 
+
 const App = () => {
   return (
     <>
     <Navbar/>
-    <div className=" max-w-6xl mx-auto pt-20" >
+    <div className="items-center max-w-full max-h-max mx-auto py-" >
     <HeroSection/>
 
     </div>

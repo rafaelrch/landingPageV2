@@ -10,7 +10,9 @@ const Navbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen)
     }
   return (
-    <nav className="sticky top-4. z-50 py-3 backdrop-blur-lg border border-neutral-700/80 w-3/5 mx-auto bg-black bg-opacity-50 py-3 px-3" style={{ borderRadius: '25px' }}>
+    
+
+    <nav className="sticky top-4 z-50 py-3 backdrop-blur-lg border border-neutral-700/80 w-3/5 mx-auto bg-black bg-opacity-50 py-3 pl-4 shadow-md" style={{ borderRadius: '25px', boxShadow: '0 25px 25px rgba(0, 0, 0, 0.2)' }}>
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
@@ -27,7 +29,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
-                    <a href="#" className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5 " style={{ borderRadius: '15px' }}>
+                    <a href="#" className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5" style={{ borderRadius: '15px' }}>
                     Vamos conversar
                     </a>
                 </div>
