@@ -3,10 +3,10 @@ import image2 from "../assets/img.png";
 
 const HeroSection = () => {
   return (
-    <div className="container absolute inset-0  flex min-h-screen w-full h-full bg-red-500  bg-cover bg-no-repeat">
+    <div className="container absolute inset-0  flex min-h-screen w-full h-full bg-[url('./assets/back.jpg')] bg-cover bg-no-repeat">
             
         
-        <div className="flex flex-col items-start justify-center sm:mt-20 lg:mt-0 mx-40 bg-blue-400" > {/* CONTEINER TEXT SECTION */}
+        <div className="flex flex-col items-start justify-center sm:mt-20 lg:mt-0 mx-60" > {/* CONTEINER TEXT SECTION */}
         
             <h1 className="text-4xl sm:text-6xl lg:text-6xl text-start tracking-wide font-light">
                 Sua
