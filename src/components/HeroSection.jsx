@@ -2,9 +2,9 @@ import image from "../assets/back.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="container min-h-screen w-full h-full bg-[url('./assets/back.jpg')] bg-cover bg-no-repeat">
-
-        <div className="flex flex-col items-start mt-6 lg:mt-10 mx-60" > {/* CONTEINER TEXT SECTION */}
+    <div className="container absolute inset-0  flex min-h-screen w-full h-full bg-red-500 bg-[url('./assets/back.jpg')] bg-cover bg-no-repeat">
+            
+        <div className="flex flex-col items-start justify-center sm:mt-20 lg:mt-0 mx-60" > {/* CONTEINER TEXT SECTION */}
         
             <h1 className="text-4xl sm:text-6xl lg:text-6xl text-start tracking-wide font-light">
                 Sua
@@ -25,6 +25,7 @@ const HeroSection = () => {
             </div>
         </div>
     </div>
+
   )
 
 }
