@@ -1,9 +1,20 @@
+import durval from '../assets/duval.png';
+import olaMusic from'../assets/olámusic.png';
+import fill from '../assets/fill.png';
+import trihair from '../assets/trihair.png';
+import otica from '../assets/ótica.png';
+import bonsdefogo from '../assets/bonsdefogo.png';
+import Image from 'next/image';
+
 function logoTicker() {
   return (
-    <div className="relative mt-110 border-b border-neutral-800 min-h-[800px]">
-    <div className="text-center">
-        <span>Logo000000000</span>
-    </div>
+    <div>
+        <div className="container">
+        <div>{
+            }
+            
+        </div>
+        </div>
     </div>
   )
 }
