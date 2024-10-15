@@ -3,12 +3,12 @@ import image2 from "../assets/img.png";
 
 const HeroSection = () => {
   return (
-    <div className="container absolute inset-0  flex min-h-screen w-full h-full bg-[url('./assets/back.jpg')] bg-cover bg-no-repeat">
-            
+       
+    <section className="pt-8 pb-20 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom_left,#5206B4,#121212_66%)]">
+
+        <div className="flex flex-col items-center justify-center sm:mt-20 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
         
-        <div className="flex flex-col items-start justify-center sm:mt-20 lg:mt-0 mx-60" > {/* CONTEINER TEXT SECTION */}
-        
-            <h1 className="text-4xl sm:text-6xl lg:text-6xl text-start tracking-wide font-light">
+            <h1 className=" sm:text-6xl lg:text-7xl text-center tracking-wide font-light">
                 Sua
                 <span  className="font-semibold bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
                 {' '}última
@@ -27,12 +27,17 @@ const HeroSection = () => {
             </div>
   
 
-            <div className="py-3 mt-5 backdrop-blur-lg border border-neutral-700/80 w-full mx-auto bg-black bg-opacity-50 pl-4 shadow-md  flex justify-center text-center" style={{ borderRadius: '20px' }}>
+            <div className=" text-xl py-5 mt-10 backdrop-blur-lg border border-neutral-700/80 w-2/5 mx-auto bg-black bg-opacity-50 pl-4 shadow-md  flex justify-center text-center mx-auto" style={{ borderRadius: '30px' }}>
                 <p>Transformando sua empresa em <br/>
-                soluções de ponta</p>
+                
+                <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
+                soluções de ponta.
+                </span></p>
             </div>
         </div>
-        </div>
+    </section>
+        
+        
 
   )
 
