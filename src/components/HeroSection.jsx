@@ -8,14 +8,14 @@ const HeroSection = () => {
 
         <div className="flex flex-col items-center justify-center sm:mt-20 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
         
-            <h1 className=" sm:text-6xl lg:text-7xl text-center tracking-wide font-light">
+            <h1 className=" sm:text-5xl lg:text-7xl text-center tracking-wide font-light">
                 Sua
                 <span  className="font-semibold bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
                 {' '}última
                 </span> agência <br/> de marketing.
             </h1>
 
-            <p className="mt-5 text-sm text-start text-neutral-400 max-w-4xl">
+            <p className="mt-5 text-sm text-center text-neutral-400 max-w-4xl sm:text-sm lg:text-sm px-10">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo beatae blanditiis <br/>
                 non id saepe eveniet veritatis itaque laborum, pariatur quia obcaecati ipsum at
             </p>
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div>
   
 
-            <div className=" text-xl py-5 mt-10 backdrop-blur-lg border border-neutral-700/80 w-2/5 mx-auto bg-black bg-opacity-50 pl-4 shadow-md  flex justify-center text-center mx-auto" style={{ borderRadius: '30px' }}>
+            <div className=" sm:text-sm lg:text-xl py-5 px-8 mt-10 backdrop-blur-lg border border-neutral-700/80 w-2/5 mx-auto bg-black bg-opacity-50 shadow-md  flex justify-center text-center mx-auto" style={{ borderRadius: '30px' }}>
                 <p>Transformando sua empresa em <br/>
                 
                 <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
