@@ -16,7 +16,7 @@ function QuemSomos() {
               Quem somos nós?
             </h2>
 
-            <p className="text-start max-w-4xl sm:text-sm lg:text-sm text-neutral-400">
+            <p className="text-start max-w-4xl sm:text-sm lg:text-sm text-neutral-400 font-extralight">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
               Nostrum odit, provident soluta maiores, dolore sapiente <br /> facere beatae voluptatem id, 
               adipisci mollitia illo asperiores in!  <br /> Quas eius nemo molestiae recusandae vel?
