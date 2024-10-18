@@ -9,14 +9,14 @@ function QuemSomos() {
           Quem Somos
         </span>
 
-        <div className="bg-red-500 flex flex-row justify-center space-x-72 mx-10">
+        <div className=" flex flex-row justify-center space-x-72 mx-10">
 
-          <div className="flex flex-col items-start bg-neutral-300 ml-20 gap-5 pb-10 ">
-            <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20">
+          <div className="flex flex-col items-start ml-20 gap-5 pb-10 ">
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 text-start">
               Quem somos nós?
             </h2>
 
-            <p className="text-start text-1xl sm:text-sm text-neutral-400">
+            <p className="text-start max-w-4xl sm:text-sm lg:text-sm text-neutral-400">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
               Nostrum odit, provident soluta maiores, dolore sapiente <br /> facere beatae voluptatem id, 
               adipisci mollitia illo asperiores in!  <br /> Quas eius nemo molestiae recusandae vel?
@@ -25,7 +25,7 @@ function QuemSomos() {
           </div>
 
 
-            <div className="bg-neutral-800 w-1/4 h-96 my-5 border border-neutral-700/80" style={{ borderRadius: '60px' }}>
+            <div className=" w-1/4 sm:w-xl h-96 my-5 border border-neutral-700/80 drop-shadow-2xl" style={{ borderRadius: '60px' }}>
             </div>
           </div>
       </div>
