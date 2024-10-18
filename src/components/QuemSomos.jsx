@@ -12,7 +12,7 @@ function QuemSomos() {
         <div className=" flex flex-row justify-center space-x-72 mx-10">
 
           <div className="flex flex-col items-start ml-20 gap-5 pb-10 ">
-            <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 text-start">
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 text-start bg-gradient-to-tr from-neutral-300 to-purple-100 text-transparent bg-clip-text">
               Quem somos nós?
             </h2>
 
