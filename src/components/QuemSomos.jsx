@@ -22,7 +22,11 @@ function QuemSomos() {
               adipisci mollitia illo asperiores in!  <br /> Quas eius nemo molestiae recusandae vel?
             </p>
 
-            
+            <div className="flex justify-center ">
+                <a href="#" className="font-extralight py-3 px-10 text-sm border border-neutral-700/30 bg-customBackground" style={{ borderRadius: '20px'}}>
+                    Sobre nós
+                </a>
+            </div>
 
           </div>
 
