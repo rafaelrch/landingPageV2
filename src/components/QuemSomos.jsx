@@ -3,7 +3,7 @@ function QuemSomos() {
   return (
     <section>
 
-    <div className="Relative mt-20 border-b border-neutral-800 min-h-[800px] ">
+    <div className="Relative mt-20 border-b border-neutral-800 min-h-[600px] flex justify-center ">
       <div className="text-center ">
         <span className="bg-neutral-900 text-purple-500 rounded-full h-6 text-sm font-medium px-4 py-2 uppercase border border-neutral-800/80">
           Quem Somos

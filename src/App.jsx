@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import QuemSomos from "./components/QuemSomos";
+import Map from "./components/Map";
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
     <HeroSection/>
     </div>
     <QuemSomos/>
+    <Map/>
     </>
   )
 }
