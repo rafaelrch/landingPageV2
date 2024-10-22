@@ -5,27 +5,28 @@ import img2 from '../assets/trihair.png';
 import img3 from '../assets/olámusic.png';
 import img4 from '../assets/fill.png';
 import img5 from '../assets/ótica.png';
+import img6 from '../assets/supreme.png';
 
 
 
 function QuemSomos() {
   return (
     <section>
-      <div>
-        <Marquee play>
-          <div>
+      <div className="mt-10">
+        <Marquee gradientColor="#121212" gradient="true">
+          <div className="w-40 mx-20">
             <img src={img1} alt="" />
           </div>
-          <div>
+          <div className="w-40 mx-20">
+            <img src={img6} alt="" />
+          </div>
+          <div className="w-40 mx-20">
             <img src={img2} alt="" />
           </div>
-          <div>
+          <div className="w-40 mx-20">
             <img src={img3} alt="" />
           </div>
-          <div>
-            <img src={img4} alt="" />
-          </div>
-          <div>
+          <div className="w-40 mx-20">
             <img src={img5} alt="" />
           </div>
         </Marquee>
