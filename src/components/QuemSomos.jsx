@@ -3,7 +3,7 @@ function QuemSomos() {
   return (
     <section>
 
-    <div className="Relative mt-20 border-b border-neutral-800 min-h-[600px] flex justify-center ">
+    <div className="Relative mt-20 border-b border-neutral-800 min-h-[600px] flex flex-wrap justify-center ">
       <div className="text-center ">
         <span className="bg-neutral-900 text-purple-500 rounded-full h-6 text-sm font-medium px-4 py-2 uppercase border border-neutral-800/80">
           Quem Somos
@@ -31,7 +31,7 @@ function QuemSomos() {
           </div>
 
 
-            <div className="flex justify-center items-center w-1/4 sm:w-xl h-96 my-5 border border-neutral-700/80 drop-shadow-2xl overflow-hidden" style={{ borderRadius: '60px' }}>
+            <div className="flex justify-center items-center h-96 my-5 border border-neutral-700/80 drop-shadow-2xl overflow-hidden" style={{ borderRadius: '60px' }}>
             <img src={imageEquipe} alt="Equipe Okto" className="image-center h-full object-cover"/>
             </div>
           </div>
