@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import QuemSomos from "./components/QuemSomos";
 import Infos from "./components/Map";
+import NossosServicos from "./components/NossosServicos";
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
     </div>
     <QuemSomos/>
     <Infos/>
+    <NossosServicos/>
     </>
   )
 }

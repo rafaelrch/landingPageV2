@@ -25,6 +25,12 @@ export const listInfos = [
   },
 ];
 
+export const servicosOptions = [
+  {
+    title: "Web Design"
+  }
+]
+
 
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
