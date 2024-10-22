@@ -14,29 +14,29 @@ function Servicos() {
       </h2>
       <div className="flex flex-wrap justify-center mx-5">
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 rounded-xl">
+              <div className=" p-10 w-full flex flex-col justify-center items-center border border-neutral-700 hover:border-blue-600 hover:scale-105 duration-200 rounded-xl">
                 <Monitor className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
                 <h2 className="py-4 text-2xl sm:text-3xl lg:text-4xl">Web Design</h2>
                 <p className="font-thin text-md sm:text-base lg:text-sm">Apenas um texto de teste</p>
               </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 rounded-xl">
-                <Monitor className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
+              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 hover:border-blue-600 hover:scale-105 duration-200 rounded-xl">
+                < Megaphone className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
                 <h2 className="py-4 text-2xl sm:text-3xl lg:text-4xl">Tráfego Pago</h2>
                 <p className="font-thin text-md sm:text-base lg:text-sm">Apenas um texto de teste</p>
               </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 rounded-xl">
-                <Monitor className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
+              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 hover:border-blue-600 hover:scale-105 duration-200 rounded-xl">
+                <Award className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
                 <h2 className="py-4 text-2xl sm:text-3xl lg:text-4xl">Branding</h2>
                 <p className="font-thin text-md sm:text-base lg:text-sm">Apenas um texto de teste</p>
               </div>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/5 p-2">
-              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 rounded-xl">
-                <Monitor className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
+              <div className="p-10 w-full flex flex-col justify-center items-center border border-neutral-700 hover:border-blue-600 hover:scale-105 duration-200 rounded-xl">
+                <Network className="w-20 h-20 sm:w-20 lg:w-5/12 sm:h-20 lg:h-1/4"/>
                 <h2 className="py-4 text-2xl sm:text-3xl lg:text-4xl">Social Media</h2>
                 <p className="font-thin text-md sm:text-base lg:text-sm">Apenas um texto de teste</p>
               </div>
