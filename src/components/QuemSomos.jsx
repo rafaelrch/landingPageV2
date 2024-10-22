@@ -1,7 +1,35 @@
 import imageEquipe from "../assets/equipe.jpg";
+import Marquee from "react-fast-Marquee";
+import img1 from '../assets/durval.png';
+import img2 from '../assets/trihair.png';
+import img3 from '../assets/olámusic.png';
+import img4 from '../assets/fill.png';
+import img5 from '../assets/ótica.png';
+
+
+
 function QuemSomos() {
   return (
     <section>
+      <div>
+        <Marquee play>
+          <div>
+            <img src={img1} alt="" />
+          </div>
+          <div>
+            <img src={img2} alt="" />
+          </div>
+          <div>
+            <img src={img3} alt="" />
+          </div>
+          <div>
+            <img src={img4} alt="" />
+          </div>
+          <div>
+            <img src={img5} alt="" />
+          </div>
+        </Marquee>
+      </div>
 
     <div className="Relative mt-20 border-b border-neutral-800 min-h-[600px] flex flex-wrap justify-center ">
       <div className="text-center ">
