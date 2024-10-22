@@ -1,9 +1,3 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
 
 export const navItems = [
   { label: "Home", href: "#" },
@@ -25,11 +19,29 @@ export const listInfos = [
   },
 ];
 
-export const servicosOptions = [
+export const servicos = [
   {
-    title: "Web Design"
-  }
-]
+    title: "Tráfego Pago",
+    description:
+      " Anos no mercado",
+  },
+  {
+    title: "Web Design",
+    description:
+      "Gerados para nossos clientesr.",
+  },
+  {
+    title: "Branding",
+    description:
+      " Anos no mercado",
+  },
+  {
+    title: "Social Media",
+    description:
+      "Gerados para nossos clientesr.",
+  },
+];
+
 
 
 export const resourcesLinks = [

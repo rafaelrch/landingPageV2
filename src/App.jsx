@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import QuemSomos from "./components/QuemSomos";
 import Infos from "./components/Map";
-import NossosServicos from "./components/NossosServicos";
+import Servicos from "./components/Servicos";
 
 
 
@@ -16,9 +16,9 @@ const App = () => {
     </div>
     <QuemSomos/>
     <Infos/>
-    <NossosServicos/>
+    <Servicos/>
     </>
   )
 }
 
-export default App
+export default App;
