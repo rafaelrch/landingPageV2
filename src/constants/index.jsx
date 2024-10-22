@@ -1,4 +1,5 @@
 
+
 export const navItems = [
   { label: "Home", href: "#" },
   { label: "Quem somos", href: "#" },
@@ -15,32 +16,11 @@ export const listInfos = [
   {
     title: "+ 2M",
     description:
-      "Gerados para nossos clientesr.",
+      "Gerados para nossos clientes.",
   },
 ];
 
-export const servicos = [
-  {
-    title: "Tráfego Pago",
-    description:
-      " Anos no mercado",
-  },
-  {
-    title: "Web Design",
-    description:
-      "Gerados para nossos clientesr.",
-  },
-  {
-    title: "Branding",
-    description:
-      " Anos no mercado",
-  },
-  {
-    title: "Social Media",
-    description:
-      "Gerados para nossos clientesr.",
-  },
-];
+
 
 
 
