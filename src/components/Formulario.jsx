@@ -1,9 +1,12 @@
+import emailjs from "@emailjs/browser";
 
 function Formulario() {
 
     const sendEmail = (e) => {
         e.preventDefault();
         alert("Submitted");
+
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_ID)
     }
 
   return (
