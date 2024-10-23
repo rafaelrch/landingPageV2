@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import QuemSomos from "./components/QuemSomos";
 import Infos from "./components/Map";
 import Servicos from "./components/Servicos";
+import Formulario from "./components/Formulario";
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
     <QuemSomos/>
     <Infos/>
     <Servicos/>
+    <Formulario/>
     </>
   )
 }
