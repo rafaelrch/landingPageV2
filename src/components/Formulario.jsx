@@ -1,13 +1,13 @@
-import emailjs from "@emailjs/browser";
+import { useState } from 'react';   
 
 function Formulario() {
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-        alert("Submitted");
+    
+    const [faturamento, setFaturamento] = useState ('');
 
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_ID)
-    }
+    const alterarFaturamento  = (e) => {
+        setFaturamento(e.target.value);
+    };
 
   return (
     <div className="pt-28 flex flex-wrap justify-center items-center space-x-28 pb-28 sm:mt-20 lg:mt-10 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_50%)]">
@@ -20,19 +20,38 @@ function Formulario() {
         </div>
 
         <div className="flex flex-col  w-2/6">
-            <form className="contact_form" onSubmit={sendEmail}>
+            <form className="contact_form" >
                 <input className="w-full font-thin mb-2 border border-neutral-700 bg-neutral-950 px-3 py-3 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500" 
                 type="text" 
                 id="nome"
-                placeholder="Seu nome"
+                placeholder="Digite seu nome"
                 required/>
 
-                <input className="w-full font-thin mb-2 border border-neutral-700 bg-neutral-950 px-3 py-3  rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"
+                <input className="w-full font-thin mb-2 border border-neutral-700 bg-neutral-950 px-3 py-3 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"
                 type="email"
                 name="email_from"
                 id="email_from"
-                placeholder="Seu email" 
+                placeholder="Digite seu melhor email" 
                 required/>
+
+                <input className="w-full font-thin mb-2 border border-neutral-700 bg-neutral-950 px-3 py-3 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"
+                type="text"
+                name="instagram"
+                id="instagram"
+                placeholder="Digite o instagram da empresa"
+                required/>
+
+                <select className='w-full font-thin  mb-2 border border-neutral-700 bg-neutral-950 px-3 py-3 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500'
+                name="faturamento" 
+                id="faturamento" 
+                value={faturamento} 
+                onChange={alterarFaturamento}>
+                    <option className='text-neutral-600' value="" disabled selected hidden>Qual faturamento mensal da sua empresa?</option>
+                    <option value="De 0 a 100 mil">De 0 a 100 mil</option>
+                    <option value="De 100 mil a 300 mill">De 100 mil a 300 mill</option>
+                    <option value="De 300 mil a 500 mil">De 300 mil a 500 mil</option>
+                    <option value="De 500 mil a 1 milhão">De 500 mil a 1 milhão</option>
+                </select>
 
                 <textarea
                 className="w-full font-thin mb-2 border border-neutral-700 px-3 py-3 bg-neutral-950  rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"
