@@ -1,4 +1,5 @@
-import imageEquipe from "../assets/equipe.jpg";
+import antonio from "../assets/antonio.png";
+import thomas from "../assets/thomas.png";
 import Marquee from "react-fast-Marquee";
 import img1 from '../assets/durval.png';
 import img2 from '../assets/trihair.png';
@@ -44,7 +45,7 @@ function QuemSomos() {
           Quem Somos
         </span>
 
-        <div className=" flex flex-row justify-center space-x-72 mx-10">
+        <div className=" flex flex-row justify-center gap-72 mx-10">
 
           <div className="flex flex-col items-start ">
             <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 text-start bg-gradient-to-tr from-neutral-300 to-purple-100 text-transparent bg-clip-text">
@@ -58,7 +59,7 @@ function QuemSomos() {
             </p>
 
             <div className="flex justify-center ">
-                <a href="#" className="font-extralight py-3 px-10 text-sm border border-neutral-700/30 bg-customBackground" style={{ borderRadius: '20px'}}>
+                <a href="#" className="hover:border-neutral-500 duration-500 font-extralight py-3 px-10 text-sm border border-neutral-700/30 bg-customBackground" style={{ borderRadius: '20px'}}>
                     Sobre nós
                 </a>
             </div>
@@ -66,8 +67,9 @@ function QuemSomos() {
           </div>
 
 
-            <div className="flex justify-center items-center h-96 my-5 border border-neutral-700/80 drop-shadow-2xl overflow-hidden" style={{ borderRadius: '60px' }}>
-            <img src={imageEquipe} alt="Equipe Okto" className="image-center h-full object-cover"/>
+            <div className="flex justify-center items-center w-1/5 my-5 drop-shadow-2xl">
+            <img src={thomas} alt="Equipe Okto" className="image-center h-full"/>
+            <img src={antonio} alt="Equipe Okto" className="image-center h-full"/>
             </div>
           </div>
       </div>
