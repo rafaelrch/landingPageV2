@@ -4,7 +4,7 @@ import image2 from "../assets/img.png";
 const HeroSection = () => {
   return (
        
-    <section className="pt-16 pb-28 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
+    <section id="home" className="pt-16 pb-28 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
 
         <div className="flex flex-col items-center justify-center mt-6 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
         

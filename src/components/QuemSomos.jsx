@@ -11,7 +11,7 @@ import img6 from '../assets/supreme.png';
 
 function QuemSomos() {
   return (
-    <section>
+    <section id="quemSomos">
       <div className="mt-10">
         <Marquee gradientColor="#121212" gradient="true">
           <div className="w-40 mx-20">
