@@ -10,6 +10,15 @@ const Navbar = () => {
     const toggleNavbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen)
     }
+
+    const numero  = '+557199173322';
+    const mensagem = 'Gostaria de fazer um reunião';
+
+    const clickBtn = () => {
+        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+        window.open(url, '_blank');
+    }
+
   return (
     
 
@@ -39,7 +48,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hidden lg:flex justify-center space-x-12 md:text-center items-center">
-                    <a href="wa.me/message/ZUKDB2OV25QBN1" className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5" style={{ borderRadius: '15px' }}>
+                    <a href="#" onClick={clickBtn} className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5" style={{ borderRadius: '15px' }}>
                     Vamos conversar
                     </a>
                 </div>
@@ -50,7 +59,7 @@ const Navbar = () => {
                 </div>
             </div>
             {mobileDrawerOpen && (
-                <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-sta items-center lg:hidden">
+                <div className="fixed right-0 z-20 bg-neutral-900 font-extralight w-full p-12 flex flex-col justify-sta items-center lg:hidden">
                     <ul>
                         {navItems.map((item, index) => (
                             <li key={index} className="py-4">
@@ -59,7 +68,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="flex space-x-6">
-                        <a href="#" className="text-center text-xs py-2 px-3 rounded-lg bg-gradient-to-r from-purple-500 to-purple-800">
+                        <a href="#" onClick={clickBtn}  className="text-center text-xs py-2 px-3 rounded-lg bg-gradient-to-r from-purple-500 to-purple-800">
                             Vamos conversar
                         </a>
                     </div>
