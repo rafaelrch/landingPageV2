@@ -2,9 +2,12 @@ import {Monitor} from "lucide-react";
 import {Megaphone} from "lucide-react";
 import {Network} from "lucide-react";
 import {Award} from "lucide-react";
+import { Element } from "react-scroll";
 
 function Servicos() {
   return (
+    <Element name="servicos">
+
     <div id="servicos" className="mt-20 text-center ">
       <span className="bg-neutral-900  text-purple-500 rounded-full h-6 text-sm font-medium px-4 py-2 uppercase border border-neutral-800/80">
         Serviços
@@ -43,6 +46,7 @@ function Servicos() {
           </div>
         </div>
       </div>
+    </Element>
   );
 }
 

@@ -6,11 +6,14 @@ import img3 from '../assets/olámusic.png';
 import img4 from '../assets/fill.png';
 import img5 from '../assets/ótica.png';
 import img6 from '../assets/supreme.png';
+import { Element } from "react-scroll";
 
 
 
 function QuemSomos() {
   return (
+    <Element name="quemSomos">
+
     <section id="quemSomos">
       <div className="mt-10">
         <Marquee gradientColor="#121212" gradient="true">
@@ -67,6 +70,7 @@ function QuemSomos() {
       </div>
     </div>
     </section>
+    </Element>
   )
 }
 

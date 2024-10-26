@@ -1,10 +1,10 @@
 
 
 export const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "Quem somos", href: "#quemSomos" },
-  { label: "Serviços", href: "#servicos" },
-  { label: "Cases", href: "#cases" },
+  { label: "Home", href: "home" },
+  { label: "Quem somos", href: "quemSomos" },
+  { label: "Serviços", href: "servicos" },
+  { label: "Cases", href: "cases" },
 ];
 
 export const listInfos = [

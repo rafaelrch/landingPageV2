@@ -2,6 +2,7 @@ import {Menu, X} from "lucide-react";
 import {useState} from "react";
 import logo from "../assets/okto-branco.png";
 import { navItems } from "../constants";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -17,13 +18,22 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
                     <img className="h-10 w-30" src={logo} alt="logo" />
-                    <span className="text-xl tracking-tight"></span>
+                    
                 </div>
 
                 <ul className="hidden lg:flex ml-14 space-x-12 font-extralight">
                     {navItems.map((item, index) => (
                         <li key={index}>
-                            <a href={item.href}>{item.label}</a>
+                            <Link
+                                to={item.href}
+                                smooth={true}
+                                duration={500}
+                                spy={true} // Monitora a posição da página
+                                activeClass="font-bold" // Aplica font-bold quando a seção está visível
+                                className="hover:font-bold duration-200 cursor-pointer"
+                            >
+                                {item.label}
+                            </Link>
                         </li>
                     ))}
                 </ul>

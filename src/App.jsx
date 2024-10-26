@@ -6,6 +6,7 @@ import Infos from "./components/Map";
 import Servicos from "./components/Servicos";
 import Formulario from "./components/Formulario";
 import Cases from "./components/Cases";
+import { Element } from "react-scroll";
 
 
 
