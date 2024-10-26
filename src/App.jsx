@@ -5,6 +5,7 @@ import QuemSomos from "./components/QuemSomos";
 import Infos from "./components/Map";
 import Servicos from "./components/Servicos";
 import Formulario from "./components/Formulario";
+import Cases from "./components/Cases";
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
     <QuemSomos/>
     <Infos/>
     <Servicos/>
+    <Cases/>
     <Formulario/>
     </>
   )

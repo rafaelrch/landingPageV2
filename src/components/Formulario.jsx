@@ -46,7 +46,7 @@ function Formulario() {
                 id="faturamento" 
                 value={faturamento} 
                 onChange={alterarFaturamento}>
-                    <option className='text-neutral-600' value="" disabled selected hidden>Qual faturamento mensal da sua empresa?</option>
+                    <option value="" disabled selected hidden>Qual faturamento mensal da sua empresa?</option>
                     <option value="De 0 a 100 mil">De 0 a 100 mil</option>
                     <option value="De 100 mil a 300 mill">De 100 mil a 300 mill</option>
                     <option value="De 300 mil a 500 mil">De 300 mil a 500 mil</option>

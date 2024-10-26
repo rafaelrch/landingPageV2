@@ -4,11 +4,11 @@ import image2 from "../assets/img.png";
 const HeroSection = () => {
   return (
        
-    <section className="pt-8 pb-20 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
+    <section className="pt-16 pb-28 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
 
-        <div className="flex flex-col items-center justify-center sm:mt-20 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
+        <div className="flex flex-col items-center justify-center mt-6 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
         
-            <h1 className=" sm:text-5xl lg:text-7xl text-center tracking-wide font-extralight">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide font-extralight">
                 Sua
                 <span  className="font-semibold bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
                 {' '}última
