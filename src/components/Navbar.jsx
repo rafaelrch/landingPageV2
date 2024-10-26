@@ -27,9 +27,9 @@ const Navbar = () => {
                             <Link
                                 to={item.href}
                                 smooth={true}
-                                duration={500}
-                                spy={true} // Monitora a posição da página
-                                activeClass="font-bold" // Aplica font-bold quando a seção está visível
+                                duration={600}
+                                spy={true}
+                                activeClass="font-bold"
                                 className="hover:font-bold duration-200 cursor-pointer"
                             >
                                 {item.label}

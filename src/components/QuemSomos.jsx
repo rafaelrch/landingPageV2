@@ -3,7 +3,7 @@ import Marquee from "react-fast-Marquee";
 import img1 from '../assets/durval.png';
 import img2 from '../assets/trihair.png';
 import img3 from '../assets/olámusic.png';
-import img4 from '../assets/fill.png';
+import img4 from '../assets/bdf.png';
 import img5 from '../assets/ótica.png';
 import img6 from '../assets/supreme.png';
 import { Element } from "react-scroll";
@@ -31,6 +31,9 @@ function QuemSomos() {
           </div>
           <div className="w-40 mx-20">
             <img src={img5} alt="" />
+          </div>
+          <div className="w-40 mx-20">
+            <img src={img4} alt="" />
           </div>
         </Marquee>
       </div>
