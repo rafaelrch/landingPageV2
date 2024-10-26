@@ -39,23 +39,25 @@ function QuemSomos() {
         </Marquee>
       </div>
 
-    <div className="Relative mt-20 border-b border-neutral-800 min-h-[600px] flex flex-wrap justify-center ">
+    <div className="Relative mt-20 border-b border-neutral-800 min-h-[600px] flex flex-wrap justify-center items-center ">
       <div className="text-center ">
         <span className="bg-neutral-900 text-purple-500 rounded-full h-6 text-sm font-medium px-4 py-2 uppercase border border-neutral-800/80">
           Quem Somos
         </span>
 
-        <div className=" flex flex-row justify-center gap-72 mx-10">
-
-          <div className="flex flex-col items-start ">
-            <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 text-start bg-gradient-to-tr from-neutral-300 to-purple-100 text-transparent bg-clip-text">
+        <div className=" flex flex-wrap justify-center gap-10 lg:gap-72 md:gap-52 mx-10">
+ 
+          <div className="flex flex-col items-center md:items-center lg:items-start">
+            <h2 className="f text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 text-start bg-gradient-to-tr from-neutral-300 to-purple-100 text-transparent bg-clip-text">
               Quem somos nós?
             </h2>
 
-            <p className="text-start max-w-4xl sm:text-sm lg:text-sm text-neutral-400 font-extralight mt-5 mb-7">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
-              Nostrum odit, provident soluta maiores, dolore sapiente <br /> facere beatae voluptatem id, 
-              adipisci mollitia illo asperiores in!  <br /> Quas eius nemo molestiae recusandae vel?
+            <p className="text-center max-w-4xl sm:text-sm lg:text-sm md:text-center lg:text-start  text-neutral-400 font-extralight mt-5 mb-7">
+            Transformamos desafios em oportunidades e marcas em referências. <br />
+            Com uma equipe dedicada e uma visão estratégica clara, entregamos <br />
+            soluções que vão além do esperado, criando conexões autênticas e <br />
+            resultados de alto impacto. Somos apaixonados pelo que fazemos, <br />
+            e isso se reflete em cada detalhe do nosso trabalho.
             </p>
 
             <div className="flex justify-center ">
@@ -67,9 +69,9 @@ function QuemSomos() {
           </div>
 
 
-            <div className="flex justify-center items-center w-1/5 my-5 drop-shadow-2xl">
-            <img src={thomas} alt="Equipe Okto" className="image-center h-full"/>
-            <img src={antonio} alt="Equipe Okto" className="image-center h-full"/>
+            <div className="flex justify-center items-center w-1/5 sm:w-1/2 lg:w-1/5 mr-0 md:mr-9 lg:mr-16 my-5 drop-shadow-2xl">
+              <img src={thomas} alt="Equipe Okto" className="image-center h-full"/>
+              <img src={antonio} alt="Equipe Okto" className="image-center h-full"/>
             </div>
           </div>
       </div>
