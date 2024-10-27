@@ -3,13 +3,6 @@ import { Element } from "react-scroll";
 
 const HeroSection = () => {
 
-    const numero  = '+557199173322';
-    const mensagem = 'Gostaria de fazer um reunião';
-
-    const clickBtn = () => {
-        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
-        window.open(url, '_blank');
-    }
   return (
     
 
@@ -31,12 +24,6 @@ const HeroSection = () => {
             <p className="mt-5 text-sm text-center text-neutral-400 max-w-4xl sm:text-sm lg:text-base px-10 font-extralight">
             Onde inovação e resultados se encontram para levar seu negócio ao próximo nível. <br/>
             </p>
-
-            <div className="flex justify-center my-7 ">
-                <a href="#" onClick={clickBtn} className="bg-gradient-to-r from-purple-800 to-purple-600 py-2 px-6 text-sm " style={{ borderRadius: '15px' }}>
-                    Fale conosco
-                </a>
-            </div>
   
 
             <div className="font-extralight sm:text-sm lg:text-xl py-3 px-8 mt-10 backdrop-blur-lg border border-neutral-700/80 w-2/5 mx-auto bg-black bg-opacity-50 shadow-md  flex justify-center text-center mx-auto" style={{ borderRadius: '30px' }}>
