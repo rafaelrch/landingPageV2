@@ -3,11 +3,6 @@ import { Element } from "react-scroll";
 
 const HeroSection = () => {
 
-    const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-    const toggleNavbar = () => {
-        setMobileDrawerOpen(!mobileDrawerOpen)
-    }
-
     const numero  = '+557199173322';
     const mensagem = 'Gostaria de fazer um reunião';
 
