@@ -1,9 +1,9 @@
-import video1 from "../assets/VIDEO1.mp4"
-import video3 from "../assets/VIDEO3.mp4"
-import video4 from "../assets/VIDEO4.mp4"
-import video5 from "../assets/VIDEO5.mp4"
-import video2 from "../assets/VIDEO2.mp4"
-import video6 from "../assets/VIDEO6.mp4"
+import video1 from "../assets/VIDEO1.mp4";
+import video3 from "../assets/VIDEO3.mp4";
+import video4 from "../assets/VIDEO4.mp4";
+import video5 from "../assets/VIDEO5.mp4";
+import video2 from "../assets/VIDEO2.mp4";
+import video6 from "../assets/VIDEO6.mp4";
 import { Element } from "react-scroll";
 
 
