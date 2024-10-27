@@ -1,5 +1,4 @@
-import image from "../assets/back.jpg";
-import image2 from "../assets/img.png";
+
 import { Element } from "react-scroll";
 
 const HeroSection = () => {

@@ -1,6 +1,6 @@
 import antonio from "../assets/antonio.png";
 import thomas from "../assets/thomas.png";
-import Marquee from "react-fast-Marquee";
+import Marquee from "react-fast-marquee";
 import img1 from '../assets/durval.png';
 import img2 from '../assets/trihair.png';
 import img3 from '../assets/olámusic.png';
