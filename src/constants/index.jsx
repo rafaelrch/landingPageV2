@@ -1,4 +1,5 @@
 
+const port = process.env.PORT || 3001;
 
 export const navItems = [
   { label: "Home", href: "home" },

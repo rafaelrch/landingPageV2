@@ -1,8 +1,9 @@
 import video1 from "../assets/VIDEO1.mp4"
-import video2 from "../assets/VIDEO2.mp4"
 import video3 from "../assets/VIDEO3.mp4"
 import video4 from "../assets/VIDEO4.mp4"
 import video5 from "../assets/VIDEO5.mp4"
+import video2 from "../assets/VIDEO2.mp4"
+import video6 from "../assets/VIDEO6.mp4"
 import { Element } from "react-scroll";
 
 
@@ -19,14 +20,14 @@ function Cases() {
           Cases
         </span>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 p-10 mt-7 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2  gap-3 p-10 mt-7 ">
             <video 
                 src={video1}
                 controls
                 className="rounded-lg  border border-neutral-700"
             ></video>
             <video 
-                src={video2}
+                src={video3}
                 controls
                 className="rounded-lg  border border-neutral-700"
             ></video>
@@ -41,7 +42,12 @@ function Cases() {
                 className="rounded-lg  border border-neutral-700"
             ></video>
             <video 
-                src={video3}
+                src={video2}
+                controls
+                className="rounded-lg  border border-neutral-700"
+            ></video>
+            <video 
+                src={video6}
                 controls
                 className="rounded-lg  border border-neutral-700"
             ></video>
