@@ -2,9 +2,25 @@
 import { Element } from "react-scroll";
 
 const HeroSection = () => {
+
+    const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+    const toggleNavbar = () => {
+        setMobileDrawerOpen(!mobileDrawerOpen)
+    }
+
+    const numero  = '+557199173322';
+    const mensagem = 'Gostaria de fazer um reunião';
+
+    const clickBtn = () => {
+        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+        window.open(url, '_blank');
+    }
   return (
+    
+
        
     <Element name="home">
+        
 
     <section id="home" className="pt-16 pb-28 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
 
@@ -22,7 +38,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex justify-center my-7 ">
-                <a href="#" className="bg-gradient-to-r from-purple-800 to-purple-600 py-2 px-6 text-sm " style={{ borderRadius: '15px' }}>
+                <a href="#" onClick={clickBtn} className="bg-gradient-to-r from-purple-800 to-purple-600 py-2 px-6 text-sm " style={{ borderRadius: '15px' }}>
                     Fale conosco
                 </a>
             </div>
