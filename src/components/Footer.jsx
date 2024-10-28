@@ -1,5 +1,6 @@
 import React from 'react'
 import { Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -23,9 +24,9 @@ function Footer() {
 
     
         <div>
-        <button class="bg-blue-600 hover:bg-blue-500 text-white font-extralight py-2 px-6 rounded-lg">
+        <Link to="/captura" class="bg-blue-600 hover:bg-blue-500 text-white font-extralight py-2 px-6 rounded-lg">
             Captura
-        </button>
+        </Link >
         </div>
     
   </div>
