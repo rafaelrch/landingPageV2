@@ -40,7 +40,7 @@ function Captura() {
       };
 
   return (
-    <div className="flex h-screen flex-wrap justify-center items-center space-x-28 pb-28 sm:mt-20 lg:mt-10 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_50%)]">
+    <div className="flex h-screen flex-wrap justify-center items-center space-x-28 pb-28 sm:pt-20 lg:pt-10 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#000000_50%)]">
         <div>
             <Link to="/" className='font-extralight'>Voltar</Link>
         </div>
