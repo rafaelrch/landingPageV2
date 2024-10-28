@@ -11,7 +11,7 @@ const HeroSection = () => {
     <Element name="home">
         
 
-    <section id="home" className="h-screen pt-16 pb-28 bg-red-500 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
+    <section id="home" className="h-screen flex justify-center items-start pt-16 pb-28 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
 
         <div className="flex flex-col items-center justify-center mt-6 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
         
@@ -32,7 +32,7 @@ const HeroSection = () => {
             </p>
   
 
-            <div className="font-extralight sm:text-sm lg:text-xl py-3 px-8 mt-10 backdrop-blur-lg border border-neutral-700/80 w-2/5 mx-auto bg-black bg-opacity-50 shadow-md  flex justify-center text-center mx-auto" style={{ borderRadius: '30px' }}>
+            <div className="font-extralight sm:text-sm lg:text-xl py-3 px-8 mt-10 backdrop-blur-lg border border-neutral-700/80 w-3/5 mx-auto bg-black bg-opacity-50 shadow-md  flex justify-center text-center mx-auto" style={{ borderRadius: '30px' }}>
                 <p>Transformando sua empresa em <br/>
                 
                 <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
