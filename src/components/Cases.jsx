@@ -15,7 +15,7 @@ function Cases() {
 
     <div 
         id="cases"
-        className="justify-center mt-20 mx-3 text-center">
+        className="justify-center pt-20 px-3 text-center bg-black">
         <span className="bg-neutral-900 text-purple-500 rounded-full h-6 text-sm font-medium px-4 py-2 uppercase border border-neutral-800/80">
           Cases
         </span>

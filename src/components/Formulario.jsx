@@ -38,7 +38,7 @@ function Formulario() {
       };
 
   return (
-    <div className="pt-28 flex flex-wrap justify-center items-center space-x-28 pb-28 sm:mt-20 lg:mt-10 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_50%)]">
+    <div className="pt-28 flex flex-wrap justify-center h-screen items-center space-x-28 pb-28  bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#000000_50%)]">
         
         <div className="py-5 px-8 mb-10 ">
             <h1 className="font-extralight text-4xl text-center sm:text-2xl lg:text-5xl">

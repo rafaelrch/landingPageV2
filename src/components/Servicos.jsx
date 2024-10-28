@@ -8,7 +8,7 @@ function Servicos() {
   return (
     <Element name="servicos">
 
-    <div id="servicos" className="mt-20 text-center flex flex-wrap flex-col justify-center items-center">
+    <div id="servicos" className="pt-20 text-center flex flex-wrap flex-col justify-center items-center bg-black">
       <span className="flex items-center bg-neutral-900  text-purple-500 rounded-full h-10 text-sm font-medium px-4 py-2 uppercase border border-neutral-800/80">
         Serviços
       </span>

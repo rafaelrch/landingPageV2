@@ -2,7 +2,7 @@ import imageMap from "../assets/map.png";
 
 function Map() {
   return (
-    <div className="mt-20">
+    <div className="mt-20 bg-black">
         <div className=" flex flex-wrap justify-center items-center">
             <div className="p-20 w-full lg:w-1/2">
                 <img src={imageMap} alt="Mapa" className=""/>

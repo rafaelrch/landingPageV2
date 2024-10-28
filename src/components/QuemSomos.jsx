@@ -15,8 +15,8 @@ function QuemSomos() {
   return (
     <Element name="quemSomos">
 
-    <section id="quemSomos">
-      <div className="mt-10">
+    <section id="quemSomos" className="bg-black">
+      <div className="pt-10">
         <Marquee gradientColor="#121212" gradient="true">
           <div className="w-40 mx-20">
             <img src={img1} alt="" />

@@ -5,7 +5,10 @@ import AppRoutes from "./routes";
 
 const App = () => {
   return (
-    <AppRoutes/>
+    <div className="bg-black">
+      {<AppRoutes/>}
+    </div>
+    
   )
 }
 
