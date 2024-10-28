@@ -22,10 +22,6 @@ const HeroSection = () => {
                 </span> agência <br/> de marketing.
             </h1>
 
-            <nav className="bg-blue-400">
-
-                <Link to="/captura">Captura</Link>
-            </nav>
 
             <p className="mt-5 text-sm text-center text-neutral-400 max-w-4xl sm:text-sm lg:text-base px-10 font-extralight">
             Onde inovação e resultados se encontram para levar seu negócio ao próximo nível. <br/>
