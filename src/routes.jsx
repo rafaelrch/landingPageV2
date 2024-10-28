@@ -1,5 +1,5 @@
 import Principal from './pages/Home/principal';
-import Captura from './pages/Captura/Captura';
+import Captura from './pages/Form/Captura';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function AppRoutes() {

@@ -6,6 +6,7 @@ import Infos from "../../components/Map";
 import Servicos from "../../components/Servicos";
 import Formulario from "../../components/Formulario";
 import Cases from "../../components/Cases";
+import Footer from "../../components/Footer";
 
 function Principal () {
     return (
@@ -19,6 +20,7 @@ function Principal () {
     <Servicos/>
     <Cases/>
     <Formulario/>
+    <Footer/>
     </>
     )
 }
