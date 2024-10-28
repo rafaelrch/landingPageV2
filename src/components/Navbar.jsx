@@ -47,8 +47,8 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                <div className="hidden lg:flex justify-center space-x-12 md:text-center items-center">
-                    <a href="#" onClick={clickBtn} className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5" style={{ borderRadius: '15px' }}>
+                <div className="hidden lg:flex justify-center space-x-12 md:text-center items-center ">
+                    <a href="#" onClick={clickBtn} className="duration-300 transition hover:scale-105 bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-5" style={{ borderRadius: '15px' }}>
                     Vamos conversar
                     </a>
                 </div>
