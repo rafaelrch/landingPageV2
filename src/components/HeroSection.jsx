@@ -21,7 +21,10 @@ const HeroSection = () => {
                 {' '}última
                 </span> agência <br/> de marketing.
             </h1>
+            <div className="bg-blue-900">
 
+            <Link to="/captura">Captura</Link>
+            </div>
 
             <p className="mt-5 text-sm text-center text-neutral-400 max-w-4xl sm:text-sm lg:text-base px-10 font-extralight">
             Onde inovação e resultados se encontram para levar seu negócio ao próximo nível. <br/>
