@@ -11,9 +11,9 @@ const HeroSection = () => {
     <Element name="home">
         
 
-    <section id="home" className="h-screen flex justify-center items-start pt-16 pb-28 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
+    <section id="home" className="h-screen flex justify-center items-center pb-10 bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#121212_66%)]">
 
-        <div className="flex flex-col items-center justify-center mt-6 lg:mt-10" > {/* CONTEINER TEXT SECTION */}
+        <div className="flex flex-col items-center justify-center " > {/* CONTEINER TEXT SECTION */}
         
             <h1 className="text-4xl sm:text-6xl lg:text-8xl text-center tracking-wide font-extralight">
                 Sua
