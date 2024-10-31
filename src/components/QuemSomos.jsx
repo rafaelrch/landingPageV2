@@ -17,7 +17,7 @@ function QuemSomos() {
 
     <section id="quemSomos" className="bg-black">
       <div className="pt-10">
-        <Marquee gradientColor="#121212" gradient="true">
+        <Marquee gradientColor="#000000" gradient="true">
           <div className="w-40 mx-20">
             <img src={img1} alt="" />
           </div>
