@@ -38,7 +38,7 @@ function Formulario() {
       };
 
   return (
-    <div className="pt-28 flex flex-wrap justify-center h-screen items-center space-x-28 pb-28  bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#000000_50%)]">
+    <div className="pt-28  flex flex-wrap justify-center h-screen items-center gap-20   pb-28  bg-[radial-gradient(ellipse_150%_100%_at_bottom,#5206B4,#000000_50%)]">
         
         <div className="py-5 px-8 mb-10 ">
             <h1 className="font-extralight text-4xl text-center sm:text-2xl lg:text-5xl">
@@ -49,7 +49,7 @@ function Formulario() {
 
         
 
-        <div className="flex flex-col  w-2/6">
+        <div className="flex flex-col mx-10 sm:w-screen lg:w-2/6">
             <form className="contact_form" onSubmit={onSubmit} >
                 <input className="w-full font-thin mb-2 border border-neutral-700 bg-neutral-950 px-3 py-3 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500" 
                 type="text" 
