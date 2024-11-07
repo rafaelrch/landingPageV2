@@ -69,9 +69,9 @@ function QuemSomos() {
           </div>
 
 
-            <div className="flex justify-center items-center w-1/5 sm:w-1/2 lg:w-1/5 mr-0 md:mr-9 lg:mr-16 my-5 drop-shadow-2xl">
-              <img src={thomas} alt="Equipe Okto" className="image-center h-full"/>
-              <img src={antonio} alt="Equipe Okto" className="image-center h-full"/>
+            <div className="flex flex-col sm:flex-row justify-center items-center w-full sm:w-1/2 lg:w-1/5 mr-0 md:mr-9 lg:mr-16 my-5 drop-shadow-2xl gap-4">
+              <img src={thomas} alt="Equipe Okto" className="w-full sm:w-1/2 h-auto object-cover" />
+              <img src={antonio} alt="Equipe Okto" className="w-full sm:w-1/2 h-auto object-cover" />
             </div>
           </div>
       </div>
